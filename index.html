@@ -1,0 +1,1568 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>外国片电影_环球影像品牌 - 专业高清原创内容社区</title>
+<meta name="description" content="外国片电影官方网站，专注环球影像内容的品牌视频平台，汇聚专业创作者与原版高清佳作，深耕外语电影垂直领域，打造值得信赖的内容生态与社区口碑。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b2a4a'/%3E%3Cpath d='M24 18l22 14-22 14z' fill='%23f3c14b'/%3E%3C/svg%3E">
+<style>
+:root{
+  --fp-ink:#14203a;
+  --fp-ink-2:#243356;
+  --fp-paper:#f4f6fb;
+  --fp-white:#ffffff;
+  --fp-line:#dbe2ef;
+  --fp-gold:#e6a93c;
+  --fp-gold-deep:#c98a1e;
+  --fp-steel:#4d6699;
+  --fp-muted:#66748f;
+  --fp-shadow:0 10px 30px rgba(20,32,58,.10);
+  --fp-radius:16px;
+  --fp-sticky-h:104px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  background:var(--fp-paper);
+  color:var(--fp-ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+ul{list-style:none}
+.fp-container{width:min(1180px,92%);margin:0 auto}
+.fp-anchor{scroll-margin-top:var(--fp-sticky-h)}
+
+/* ---------- 吸顶：公告条 + 页头 ---------- */
+.fp-sticky-wrap{
+  position:sticky;top:0;z-index:90;
+  background:var(--fp-white);
+  box-shadow:0 2px 14px rgba(20,32,58,.08);
+}
+.fp-notice{
+  background:linear-gradient(90deg,#14203a,#243356 55%,#2f4272);
+  color:#e9eefb;
+  font-size:13px;
+  letter-spacing:.2px;
+}
+.fp-notice-inner{
+  display:flex;align-items:center;gap:12px;
+  padding:8px 0;
+  overflow:hidden;white-space:nowrap;
+}
+.fp-notice-tag{
+  flex:0 0 auto;
+  background:var(--fp-gold);color:#2a1c02;
+  font-weight:700;font-size:12px;
+  padding:2px 9px;border-radius:20px;
+}
+.fp-notice-track{display:flex;gap:38px;align-items:center;overflow-x:auto;scrollbar-width:none}
+.fp-notice-track::-webkit-scrollbar{display:none}
+.fp-notice-track span{display:inline-flex;align-items:center;gap:8px}
+.fp-notice-track i{
+  width:5px;height:5px;border-radius:50%;background:var(--fp-gold);
+  display:inline-block;font-style:normal;
+}
+.fp-notice-track b{color:var(--fp-gold);font-weight:700}
+
+.fp-header{background:var(--fp-white)}
+.fp-header-inner{
+  display:flex;align-items:center;gap:26px;
+  padding:14px 0;
+}
+.fp-brand{display:flex;align-items:center;gap:11px;flex:0 0 auto}
+.fp-brand-mark{
+  width:42px;height:42px;border-radius:12px;
+  background:linear-gradient(140deg,#1b2a4a,#37507f);
+  display:grid;place-items:center;color:var(--fp-gold);font-size:20px;
+  box-shadow:0 6px 16px rgba(27,42,74,.28);
+}
+.fp-brand-text strong{display:block;font-size:19px;letter-spacing:1px;line-height:1.2}
+.fp-brand-text small{display:block;font-size:11px;color:var(--fp-muted);letter-spacing:2.4px}
+.fp-nav{display:flex;gap:4px;flex:1 1 auto;flex-wrap:wrap}
+.fp-nav a{
+  padding:8px 13px;border-radius:9px;font-size:14.5px;color:var(--fp-ink-2);
+  transition:.22s;font-weight:500;
+}
+.fp-nav a:hover{background:#eef2fb;color:var(--fp-steel)}
+.fp-search{
+  display:flex;align-items:center;gap:8px;
+  background:#eef2fb;border:1px solid var(--fp-line);
+  border-radius:999px;padding:6px 8px 6px 15px;
+  flex:0 1 250px;min-width:170px;
+}
+.fp-search input{
+  border:none;background:none;outline:none;font-size:13.5px;
+  color:var(--fp-ink);width:100%;
+}
+.fp-search button{
+  background:var(--fp-ink);color:#fff;font-size:12.5px;
+  padding:6px 13px;border-radius:999px;flex:0 0 auto;
+}
+.fp-search button:hover{background:var(--fp-steel)}
+.fp-nav-toggle{
+  display:none;width:42px;height:42px;border-radius:11px;
+  border:1px solid var(--fp-line);place-items:center;flex:0 0 auto;
+}
+.fp-nav-toggle span{display:block;width:18px;height:2px;background:var(--fp-ink);box-shadow:0 5px 0 var(--fp-ink),0 -5px 0 var(--fp-ink)}
+.fp-search-hint{
+  font-size:12.5px;color:var(--fp-steel);
+  padding:0 0 8px;
+}
+.fp-search-hint:empty{display:none}
+
+/* ---------- 首屏 ---------- */
+.fp-hero{
+  background:
+    radial-gradient(900px 420px at 88% -10%, rgba(230,169,60,.20), transparent 70%),
+    radial-gradient(700px 420px at 5% 110%, rgba(77,102,153,.22), transparent 70%),
+    linear-gradient(160deg,#131e36 0%,#1c2a49 52%,#243356 100%);
+  color:#eef3ff;position:relative;overflow:hidden;
+}
+.fp-hero::after{
+  content:"";position:absolute;inset:auto -60px -120px auto;
+  width:380px;height:380px;border-radius:50%;
+  border:1px solid rgba(230,169,60,.28);pointer-events:none;
+}
+.fp-hero-grid{
+  display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center;
+  padding:64px 0 72px;position:relative;z-index:1;
+}
+.fp-hero-tag{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12.5px;letter-spacing:2px;color:var(--fp-gold);
+  border:1px solid rgba(230,169,60,.5);border-radius:999px;
+  padding:5px 15px;margin-bottom:22px;
+}
+.fp-hero h1{
+  font-size:clamp(34px,4.6vw,54px);line-height:1.16;
+  letter-spacing:2px;margin-bottom:16px;font-weight:800;
+}
+.fp-hero h1 em{
+  font-style:normal;
+  background:linear-gradient(100deg,#f6d489,#e6a93c);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.fp-hero-slogan{
+  font-size:16.5px;color:#c3d0ea;margin-bottom:20px;letter-spacing:.6px;
+}
+.fp-hero-intro{font-size:14.5px;color:#aebbd6;max-width:560px;margin-bottom:26px}
+.fp-hero-actions{display:flex;gap:13px;flex-wrap:wrap;margin-bottom:34px}
+.fp-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:12px 26px;border-radius:12px;font-size:14.5px;font-weight:600;
+  transition:.24s;letter-spacing:.5px;
+}
+.fp-btn-primary{background:var(--fp-gold);color:#2a1c02;box-shadow:0 8px 22px rgba(230,169,60,.32)}
+.fp-btn-primary:hover{background:#f0b954;transform:translateY(-2px)}
+.fp-btn-ghost{border:1px solid rgba(195,208,234,.42);color:#dbe5fa}
+.fp-btn-ghost:hover{background:rgba(255,255,255,.08);transform:translateY(-2px)}
+.fp-hero-stats{display:flex;gap:34px;flex-wrap:wrap}
+.fp-hero-stat strong{display:block;font-size:26px;color:#fff;letter-spacing:1px}
+.fp-hero-stat span{font-size:12.5px;color:#93a4c6;letter-spacing:1px}
+
+.fp-hero-visual{position:relative}
+.fp-hero-frame{
+  border-radius:20px;overflow:hidden;position:relative;
+  box-shadow:0 26px 60px rgba(3,8,20,.55);
+  border:1px solid rgba(230,169,60,.28);
+}
+.fp-hero-frame img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.fp-hero-play{
+  position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;
+}
+.fp-hero-play span{
+  width:66px;height:66px;border-radius:50%;
+  background:rgba(20,32,58,.55);border:2px solid rgba(246,212,137,.9);
+  display:grid;place-items:center;color:#f6d489;font-size:22px;padding-left:5px;
+  backdrop-filter:blur(4px);
+}
+.fp-hero-chip{
+  position:absolute;bottom:-18px;left:-16px;
+  background:rgba(255,255,255,.96);color:var(--fp-ink);
+  border-radius:14px;padding:12px 18px;box-shadow:var(--fp-shadow);
+}
+.fp-hero-chip strong{display:block;font-size:13.5px}
+.fp-hero-chip small{font-size:11.5px;color:var(--fp-muted)}
+
+/* ---------- 通用区块 ---------- */
+.fp-section{padding:72px 0}
+.fp-section-head{margin-bottom:36px;max-width:760px}
+.fp-eyebrow{
+  display:inline-block;font-size:12.5px;letter-spacing:3px;
+  color:var(--fp-gold-deep);font-weight:700;margin-bottom:10px;
+}
+.fp-section-head h2{
+  font-size:clamp(24px,2.8vw,32px);letter-spacing:1px;line-height:1.3;
+  margin-bottom:12px;font-weight:800;
+}
+.fp-section-head p{color:var(--fp-muted);font-size:14.6px}
+.fp-section.alt{background:var(--fp-white)}
+
+/* 关键词解析长文 */
+.fp-about{display:grid;grid-template-columns:1fr;gap:34px}
+.fp-about-body{
+  background:var(--fp-white);border:1px solid var(--fp-line);
+  border-radius:var(--fp-radius);padding:34px 38px;box-shadow:var(--fp-shadow);
+}
+.fp-about-body h3{
+  font-size:18px;margin:26px 0 10px;letter-spacing:.5px;
+  padding-left:12px;border-left:4px solid var(--fp-gold);
+}
+.fp-about-body h3:first-child{margin-top:0}
+.fp-about-body p{font-size:14.8px;color:#3b4a66;margin-bottom:13px;text-align:justify}
+.fp-keyline{color:var(--fp-steel);font-weight:600}
+
+/* 焦点视频 */
+.fp-feature-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:24px}
+.fp-feature-main{
+  position:relative;border-radius:var(--fp-radius);overflow:hidden;
+  background:#0f1729;box-shadow:var(--fp-shadow);
+}
+.fp-feature-main img{width:100%;aspect-ratio:16/9;object-fit:cover;opacity:.94}
+.fp-feature-main-body{
+  position:absolute;inset:auto 0 0 0;padding:26px;
+  background:linear-gradient(0deg,rgba(9,14,26,.92),rgba(9,14,26,.18) 78%,transparent);
+  color:#fff;
+}
+.fp-feature-main-body h3{font-size:21px;margin:8px 0;letter-spacing:.5px}
+.fp-feature-main-body p{font-size:13.4px;color:#c2cde4;margin-bottom:12px}
+.fp-badge{
+  display:inline-block;font-size:11.5px;letter-spacing:1px;
+  background:var(--fp-gold);color:#2a1c02;padding:3px 10px;border-radius:6px;font-weight:700;
+}
+.fp-feature-side{display:grid;gap:16px}
+.fp-mini-card{
+  display:grid;grid-template-columns:112px 1fr;gap:14px;align-items:center;
+  background:var(--fp-white);border:1px solid var(--fp-line);
+  border-radius:13px;padding:10px;transition:.24s;
+}
+.fp-section.alt .fp-mini-card{background:var(--fp-paper)}
+.fp-mini-card:hover{transform:translateY(-3px);box-shadow:var(--fp-shadow);border-color:#c8d4ea}
+.fp-mini-thumb{position:relative;border-radius:9px;overflow:hidden}
+.fp-mini-thumb img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.fp-mini-thumb em{
+  position:absolute;right:5px;bottom:5px;font-style:normal;
+  background:rgba(9,14,26,.78);color:#fff;font-size:10.5px;padding:1px 6px;border-radius:4px;
+}
+.fp-mini-card h4{font-size:14.5px;line-height:1.45;margin-bottom:5px}
+.fp-mini-card p{font-size:12.5px;color:var(--fp-muted)}
+
+/* 视频流 */
+.fp-video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.fp-video-card{
+  background:var(--fp-white);border:1px solid var(--fp-line);
+  border-radius:var(--fp-radius);overflow:hidden;
+  display:flex;flex-direction:column;transition:.26s;
+}
+.fp-video-card:hover{transform:translateY(-5px);box-shadow:var(--fp-shadow);border-color:#c8d4ea}
+.fp-video-cover{position:relative;overflow:hidden;background:#0f1729}
+.fp-video-cover img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:transform .5s}
+.fp-video-card:hover .fp-video-cover img{transform:scale(1.05)}
+.fp-video-cover .fp-vbadge{
+  position:absolute;top:10px;left:10px;font-size:11px;letter-spacing:.6px;
+  background:rgba(255,255,255,.94);color:var(--fp-ink);
+  padding:3px 9px;border-radius:6px;font-weight:600;
+}
+.fp-video-cover .fp-vtri{
+  position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;
+}
+.fp-video-cover .fp-vtri i{
+  width:44px;height:44px;border-radius:50%;
+  background:rgba(20,32,58,.5);border:1.5px solid rgba(255,255,255,.85);
+  display:grid;place-items:center;color:#fff;font-size:15px;padding-left:3px;
+  opacity:0;transition:.3s;font-style:normal;
+}
+.fp-video-card:hover .fp-vtri i{opacity:1}
+.fp-video-body{padding:16px 17px 14px;display:flex;flex-direction:column;flex:1}
+.fp-video-body h3{font-size:15.5px;line-height:1.5;margin-bottom:7px}
+.fp-video-body p{font-size:13px;color:var(--fp-muted);margin-bottom:12px;flex:1}
+.fp-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.fp-tag{
+  font-size:11.5px;color:var(--fp-steel);background:#eaf0fb;
+  padding:2px 9px;border-radius:999px;
+}
+.fp-video-meta{
+  display:flex;align-items:center;justify-content:space-between;
+  padding-top:11px;border-top:1px dashed var(--fp-line);
+  font-size:12.5px;color:var(--fp-muted);gap:8px;
+}
+.fp-author-mini{display:flex;align-items:center;gap:7px}
+.fp-avatar{
+  width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+  font-size:12px;font-weight:700;color:#fff;flex:0 0 auto;
+}
+.fp-actions{display:flex;gap:9px}
+.fp-act{
+  display:flex;align-items:center;gap:4px;font-size:12.5px;color:var(--fp-muted);
+  transition:.2s;padding:2px 4px;border-radius:6px;
+}
+.fp-act:hover{color:var(--fp-steel);background:#eef2fb}
+.fp-act.on{color:var(--fp-gold-deep);font-weight:700}
+.fp-act.on .fp-heart{color:#d9534f}
+
+/* 专题 */
+.fp-topic-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.fp-topic{
+  border-radius:14px;overflow:hidden;position:relative;
+  border:1px solid var(--fp-line);background:var(--fp-white);
+  transition:.26s;
+}
+.fp-topic:hover{transform:translateY(-4px);box-shadow:var(--fp-shadow)}
+.fp-topic img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.fp-topic-body{padding:14px 15px 16px}
+.fp-topic-body h3{font-size:15px;margin-bottom:6px;line-height:1.45}
+.fp-topic-body p{font-size:12.8px;color:var(--fp-muted);margin-bottom:10px}
+.fp-topic-status{
+  font-size:11.5px;color:#2c7a4b;background:#e6f5ec;
+  padding:2px 9px;border-radius:999px;display:inline-block;
+}
+.fp-topic-status.soon{color:#8a6a12;background:#fbf1d8}
+
+/* 创作者 */
+.fp-creators{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.fp-creator{
+  background:var(--fp-white);border:1px solid var(--fp-line);
+  border-radius:var(--fp-radius);padding:22px;text-align:center;
+  transition:.26s;cursor:pointer;
+}
+.fp-creator:hover{transform:translateY(-4px);box-shadow:var(--fp-shadow);border-color:#c8d4ea}
+.fp-creator .fp-avatar-lg{
+  width:64px;height:64px;border-radius:50%;margin:0 auto 13px;
+  display:grid;place-items:center;font-size:23px;font-weight:800;color:#fff;
+  box-shadow:0 8px 18px rgba(20,32,58,.18);
+}
+.fp-creator h3{font-size:16px;margin-bottom:3px}
+.fp-creator .fp-crole{font-size:12.5px;color:var(--fp-gold-deep);margin-bottom:8px;letter-spacing:.5px}
+.fp-creator p{font-size:12.6px;color:var(--fp-muted);margin-bottom:12px}
+.fp-creator-nums{display:flex;justify-content:center;gap:16px;font-size:12px;color:var(--fp-muted)}
+.fp-creator-nums b{display:block;color:var(--fp-ink);font-size:14.5px}
+
+/* 故事随笔 */
+.fp-story-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.fp-story{
+  background:var(--fp-white);border:1px solid var(--fp-line);border-radius:14px;
+  padding:24px;position:relative;transition:.24s;
+}
+.fp-story:hover{border-color:#c8d4ea;box-shadow:var(--fp-shadow)}
+.fp-story::before{
+  content:"“";position:absolute;top:6px;right:18px;
+  font-size:56px;color:#e7ecf7;line-height:1;font-family:Georgia,serif;
+}
+.fp-story h3{font-size:15.5px;margin-bottom:10px}
+.fp-story p{font-size:13.4px;color:#41506d;margin-bottom:14px}
+.fp-story-by{font-size:12.4px;color:var(--fp-muted)}
+
+/* 影像墙 */
+.fp-wall{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.fp-wall figure{
+  position:relative;border-radius:12px;overflow:hidden;cursor:pointer;
+  background:#0f1729;
+}
+.fp-wall figure img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.fp-wall figure:hover img{transform:scale(1.06)}
+.fp-wall figcaption{
+  position:absolute;inset:auto 0 0 0;padding:22px 13px 11px;
+  background:linear-gradient(0deg,rgba(9,14,26,.86),transparent);
+  color:#fff;font-size:12.5px;letter-spacing:.4px;
+}
+.fp-wall .w-tall{grid-row:span 2}
+.fp-wall .w-tall img{aspect-ratio:3/4}
+.fp-wall .w-wide{grid-column:span 2}
+.fp-wall .w-wide img{aspect-ratio:16/7}
+.fp-wall .w-sq img{aspect-ratio:1/1}
+
+/* 评论 */
+.fp-comments{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.fp-comment{
+  background:var(--fp-white);border:1px solid var(--fp-line);
+  border-radius:14px;padding:20px;transition:.24s;
+}
+.fp-comment:hover{box-shadow:var(--fp-shadow)}
+.fp-comment-head{display:flex;align-items:center;gap:10px;margin-bottom:11px}
+.fp-comment-head strong{font-size:13.8px;display:block}
+.fp-comment-head small{font-size:11.5px;color:var(--fp-muted)}
+.fp-comment p{font-size:13.4px;color:#41506d}
+.fp-stars{color:var(--fp-gold);font-size:12.5px;letter-spacing:2px;margin-top:10px}
+
+/* 榜单 */
+.fp-rank-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.fp-rank{
+  background:var(--fp-white);border:1px solid var(--fp-line);border-radius:14px;
+  padding:22px;box-shadow:var(--fp-shadow);
+}
+.fp-rank h3{font-size:15.5px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.fp-rank h3 i{
+  font-style:normal;width:22px;height:22px;border-radius:6px;
+  background:var(--fp-gold);color:#2a1c02;font-size:12px;font-weight:800;
+  display:grid;place-items:center;
+}
+.fp-rank ol{counter-reset:r;display:grid;gap:11px}
+.fp-rank li{
+  display:flex;gap:10px;align-items:center;font-size:13.3px;color:#3b4a66;
+}
+.fp-rank li::before{
+  counter-increment:r;content:counter(r);
+  width:20px;height:20px;border-radius:6px;background:#eef2fb;color:var(--fp-steel);
+  font-size:11.5px;font-weight:700;display:grid;place-items:center;flex:0 0 auto;
+}
+.fp-rank li:nth-child(1)::before{background:var(--fp-gold);color:#2a1c02}
+.fp-rank li span{flex:1}
+.fp-rank li em{font-style:normal;font-size:11.5px;color:var(--fp-muted)}
+
+/* 动态 */
+.fp-news{display:grid;gap:0}
+.fp-news-item{
+  display:grid;grid-template-columns:112px 1fr auto;gap:20px;align-items:center;
+  padding:18px 0;border-bottom:1px solid var(--fp-line);
+}
+.fp-news-item:last-child{border-bottom:none}
+.fp-news-date{
+  font-size:12.5px;color:var(--fp-steel);font-weight:600;letter-spacing:.5px;
+}
+.fp-news-item h3{font-size:15px;margin-bottom:3px}
+.fp-news-item p{font-size:12.8px;color:var(--fp-muted)}
+.fp-news-type{
+  font-size:11.5px;color:var(--fp-gold-deep);background:#fbf1d8;
+  padding:3px 10px;border-radius:999px;white-space:nowrap;
+}
+
+/* 合作 */
+.fp-partners{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.fp-partner{
+  background:var(--fp-white);border:1px dashed var(--fp-line);border-radius:12px;
+  padding:20px 10px;text-align:center;font-size:13px;color:var(--fp-steel);
+  font-weight:600;letter-spacing:.6px;transition:.22s;
+}
+.fp-partner:hover{border-color:var(--fp-gold);color:var(--fp-gold-deep);background:#fffdf6}
+
+/* FAQ */
+.fp-faq{display:grid;gap:11px;max-width:900px}
+.fp-faq details{
+  background:var(--fp-white);border:1px solid var(--fp-line);border-radius:12px;
+  padding:0 20px;transition:.2s;
+}
+.fp-faq details[open]{border-color:#c8d4ea;box-shadow:var(--fp-shadow)}
+.fp-faq summary{
+  cursor:pointer;padding:16px 0;font-size:14.6px;font-weight:600;
+  list-style:none;display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+.fp-faq summary::-webkit-details-marker{display:none}
+.fp-faq summary::after{content:"+";color:var(--fp-steel);font-size:19px;line-height:1}
+.fp-faq details[open] summary::after{content:"–"}
+.fp-faq details p{padding:0 0 17px;font-size:13.6px;color:#41506d}
+
+/* 联系/投稿 */
+.fp-contact{
+  display:grid;grid-template-columns:1.2fr .8fr;gap:30px;
+  background:linear-gradient(150deg,#16223c,#243356);
+  border-radius:20px;padding:40px;color:#e9eefb;
+  box-shadow:0 20px 50px rgba(20,32,58,.28);
+}
+.fp-contact h2{font-size:26px;margin-bottom:12px;letter-spacing:1px}
+.fp-contact p{font-size:14px;color:#aebbd6;margin-bottom:20px}
+.fp-contact-list{display:grid;gap:10px;font-size:13.6px;color:#c8d4ee}
+.fp-contact-list b{color:var(--fp-gold);display:inline-block;min-width:76px}
+.fp-contact-side{display:grid;gap:12px;align-content:center}
+.fp-contact-side .fp-btn{justify-content:center;width:100%}
+
+/* 页脚 */
+.fp-footer{background:#0d1526;color:#8fa1c2;padding:56px 0 26px;font-size:13.4px}
+.fp-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:32px;margin-bottom:34px}
+.fp-footer h4{color:#e6ecfa;font-size:14.5px;margin-bottom:14px;letter-spacing:1px}
+.fp-footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.fp-footer-brand strong{color:#eef3ff;font-size:17px;letter-spacing:1px}
+.fp-footer p{line-height:1.85;color:#7e90b1;font-size:13px}
+.fp-footer ul{display:grid;gap:9px}
+.fp-footer ul a:hover{color:var(--fp-gold)}
+.fp-footer-bottom{
+  border-top:1px solid rgba(255,255,255,.08);padding-top:20px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  font-size:12.5px;color:#6c7d9d;
+}
+
+/* Toast & Modal & 回顶 */
+.fp-toast{
+  position:fixed;left:50%;bottom:36px;transform:translate(-50%,20px);
+  background:rgba(16,26,45,.95);color:#fff;font-size:13.5px;
+  padding:11px 22px;border-radius:999px;box-shadow:0 10px 30px rgba(0,0,0,.28);
+  opacity:0;pointer-events:none;transition:.28s;z-index:200;
+}
+.fp-toast.show{opacity:1;transform:translate(-50%,0)}
+.fp-modal-mask{
+  position:fixed;inset:0;background:rgba(9,14,26,.6);backdrop-filter:blur(3px);
+  display:none;place-items:center;z-index:210;padding:20px;
+}
+.fp-modal-mask.show{display:grid}
+.fp-modal{
+  background:var(--fp-white);border-radius:18px;width:min(460px,100%);
+  padding:30px;box-shadow:0 30px 70px rgba(0,0,0,.35);position:relative;
+}
+.fp-modal h3{font-size:19px;margin-bottom:9px}
+.fp-modal p{font-size:13.8px;color:var(--fp-muted);margin-bottom:18px}
+.fp-modal-close{
+  position:absolute;top:12px;right:16px;font-size:22px;color:var(--fp-muted);
+}
+.fp-modal label{display:block;font-size:12.8px;color:var(--fp-ink-2);margin:12px 0 5px;font-weight:600}
+.fp-modal input,.fp-modal textarea{
+  width:100%;border:1px solid var(--fp-line);border-radius:10px;
+  padding:10px 13px;font-size:13.6px;font-family:inherit;outline:none;
+  background:var(--fp-paper);color:var(--fp-ink);
+}
+.fp-modal input:focus,.fp-modal textarea:focus{border-color:var(--fp-steel);background:#fff}
+.fp-modal textarea{resize:vertical;min-height:88px}
+.fp-modal .fp-btn-primary{width:100%;justify-content:center;margin-top:18px}
+.fp-backtop{
+  position:fixed;right:24px;bottom:26px;width:46px;height:46px;border-radius:50%;
+  background:var(--fp-ink);color:var(--fp-gold);display:grid;place-items:center;
+  font-size:18px;box-shadow:0 10px 24px rgba(20,32,58,.3);
+  opacity:0;pointer-events:none;transition:.28s;z-index:80;
+}
+.fp-backtop.show{opacity:1;pointer-events:auto}
+.fp-backtop:hover{background:var(--fp-steel)}
+
+/* 响应式 */
+@media (max-width:1024px){
+  .fp-hero-grid{grid-template-columns:1fr;gap:38px;padding:48px 0 60px}
+  .fp-feature-grid{grid-template-columns:1fr}
+  .fp-video-grid{grid-template-columns:repeat(2,1fr)}
+  .fp-topic-grid{grid-template-columns:repeat(2,1fr)}
+  .fp-creators{grid-template-columns:repeat(2,1fr)}
+  .fp-story-grid{grid-template-columns:1fr}
+  .fp-comments{grid-template-columns:repeat(2,1fr)}
+  .fp-rank-grid{grid-template-columns:1fr}
+  .fp-partners{grid-template-columns:repeat(3,1fr)}
+  .fp-contact{grid-template-columns:1fr;padding:30px}
+  .fp-footer-grid{grid-template-columns:1fr 1fr}
+  .fp-wall{grid-template-columns:repeat(3,1fr)}
+  .fp-search{display:none}
+}
+@media (max-width:768px){
+  :root{--fp-sticky-h:92px}
+  .fp-header-inner{flex-wrap:wrap;padding:11px 0;gap:12px}
+  .fp-nav-toggle{display:grid;margin-left:auto}
+  .fp-nav{
+    display:none;order:4;width:100%;flex-direction:column;gap:2px;
+    padding-top:8px;border-top:1px solid var(--fp-line);
+  }
+  .fp-nav.open{display:flex}
+  .fp-nav a{padding:10px 12px}
+  .fp-notice-inner{font-size:12px}
+  .fp-video-grid{grid-template-columns:1fr}
+  .fp-topic-grid{grid-template-columns:1fr 1fr}
+  .fp-creators{grid-template-columns:1fr 1fr}
+  .fp-comments{grid-template-columns:1fr}
+  .fp-wall{grid-template-columns:1fr 1fr}
+  .fp-wall .w-wide{grid-column:span 2}
+  .fp-partners{grid-template-columns:1fr 1fr}
+  .fp-news-item{grid-template-columns:1fr;gap:5px}
+  .fp-about-body{padding:24px 20px}
+  .fp-footer-grid{grid-template-columns:1fr}
+  .fp-btn{padding:11px 20px;font-size:13.8px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="fp-sticky-wrap">
+  <div class="fp-notice">
+    <div class="fp-container fp-notice-inner">
+      <span class="fp-notice-tag">官方发布</span>
+      <div class="fp-notice-track">
+        <span><i></i>「环球影像·冬日影展」外语电影专题上新 <b>12</b> 部原版修复佳作</span>
+        <span><i></i>2026 冬季创作者招募开启，报名通道已开放</span>
+        <span><i></i>品牌官网安卓与平板端高清播放器 v5.2 更新</span>
+        <span><i></i>「城市与远方」外语短片征集投稿进行中</span>
+      </div>
+    </div>
+  </div>
+  <header class="fp-header">
+    <div class="fp-container fp-header-inner">
+      <a class="fp-brand" href="#fp-top" aria-label="环球影像官方网站首页">
+        <span class="fp-brand-mark" aria-hidden="true">▶</span>
+        <span class="fp-brand-text">
+          <strong>环球影像</strong>
+          <small>GLOBAL PICTURES</small>
+        </span>
+      </a>
+      <nav class="fp-nav" id="fpNav" aria-label="主导航">
+        <a href="#fp-top">首页</a>
+        <a href="#fp-focus">焦点内容</a>
+        <a href="#fp-videos">影像流</a>
+        <a href="#fp-topics">专题企划</a>
+        <a href="#fp-creators">创作者</a>
+        <a href="#fp-brand">品牌故事</a>
+        <a href="#fp-news">企业动态</a>
+        <a href="#fp-faq">帮助</a>
+        <a href="#fp-contact">联系</a>
+      </nav>
+      <div class="fp-search" role="search">
+        <input type="search" id="fpSearchInput" placeholder="搜索外语电影、导演、专题…" aria-label="站内搜索">
+        <button type="button" id="fpSearchBtn">搜索</button>
+      </div>
+      <button class="fp-nav-toggle" id="fpNavToggle" aria-label="展开导航" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+    <div class="fp-container">
+      <div class="fp-search-hint" id="fpSearchHint" aria-live="polite"></div>
+    </div>
+  </header>
+</div>
+
+<main id="fp-top">
+
+  <!-- 首屏 -->
+  <section class="fp-hero">
+    <div class="fp-container fp-hero-grid">
+      <div class="fp-hero-copy">
+        <span class="fp-hero-tag">官方品牌站 · 原创高清 · 十余年深耕</span>
+        <h1>外国片电影</h1>
+        <p class="fp-hero-slogan">用一部好电影，打开一个国家的日常与想象</p>
+        <p class="fp-hero-intro">
+          环球影像官方网站是专注外国片电影内容的品牌视频平台，以专业选片、正版授权与高清画质为核心，
+          为影迷、创作者与企业搭建值得信赖的垂直内容生态。我们坚持原创解读与真实分享，
+          让每一部外语电影都能被更好地理解、被更长久地讨论。
+        </p>
+        <div class="fp-hero-actions">
+          <a class="fp-btn fp-btn-primary" href="#fp-videos">浏览影像流</a>
+          <a class="fp-btn fp-btn-ghost" href="#fp-contact" data-fp-open="submit">创作者投稿</a>
+          <a class="fp-btn fp-btn-ghost" href="#fp-brand">了解品牌故事</a>
+        </div>
+        <div class="fp-hero-stats">
+          <div class="fp-hero-stat"><strong>12600+</strong><span>收录外语影片条目</span></div>
+          <div class="fp-hero-stat"><strong>860 位</strong><span>签约与入驻创作者</span></div>
+          <div class="fp-hero-stat"><strong>4.9 / 5</strong><span>社区口碑评分</span></div>
+        </div>
+      </div>
+      <div class="fp-hero-visual">
+        <div class="fp-hero-frame">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2314213d'/%3E%3Cstop offset='.55' stop-color='%232c4272'/%3E%3Cstop offset='1' stop-color='%23c98a1e'/%3E%3C/linearGradient%3E%3ClinearGradient id='g2' x1='0' y1='1' x2='0' y2='0'%3E%3Cstop offset='0' stop-color='%230b1322' stop-opacity='.9'/%3E%3Cstop offset='1' stop-color='%230b1322' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='500' fill='url(%23g1)'/%3E%3Ccircle cx='620' cy='120' r='86' fill='%23f6d489' opacity='.24'/%3E%3Ccircle cx='620' cy='120' r='46' fill='%23f6d489' opacity='.5'/%3E%3Cpath d='M0 350 L180 250 L330 330 L470 210 L640 320 L800 240 L800 500 L0 500 Z' fill='%23101c33' opacity='.82'/%3E%3Cpath d='M0 400 L160 330 L320 390 L500 300 L680 380 L800 330 L800 500 L0 500 Z' fill='%230c1526' opacity='.92'/%3E%3Crect x='60' y='60' width='130' height='16' rx='8' fill='%23f6d489' opacity='.8'/%3E%3Crect x='60' y='90' width='220' height='9' rx='4' fill='%23ffffff' opacity='.35'/%3E%3Crect x='60' y='108' width='170' height='9' rx='4' fill='%23ffffff' opacity='.22'/%3E%3Crect width='800' height='500' fill='url(%23g2)'/%3E%3C/svg%3E" alt="环球影像品牌主视觉：暮色中的城市天际线映出外国片电影的放映光晕" width="800" height="500">
+          <div class="fp-hero-play"><span>▶</span></div>
+        </div>
+        <div class="fp-hero-chip">
+          <strong>本周品牌精选 · 冬日影展</strong>
+          <small>12 部外语原版修复作品同步上线</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关键词深度解析 -->
+  <section class="fp-section fp-anchor" id="fp-brand">
+    <div class="fp-container">
+      <div class="fp-section-head">
+        <span class="fp-eyebrow">BRAND STORY</span>
+        <h2>品牌故事：我们如何理解外国片电影</h2>
+        <p>一个以内容为骨架、以社区为血液的外语电影品牌官网，如何持续运营十余年。</p>
+      </div>
+      <div class="fp-about">
+        <div class="fp-about-body">
+          <h3>从一间放映室，到一座内容生态</h3>
+          <p>
+            环球影像起步于 2013 年的一间小型放映室。最初只有七个人、两台投影仪和一批从海外带回的胶片拷贝。
+            我们当时的想法非常朴素：<span class="fp-keyline">外国片电影不该只是被讨论、被引用、被片段化地转述，它应当被完整地看见。</span>
+            于是我们开始做三件事——找到片源、修复画质、把电影背后的语境讲清楚。这十多年里，这三件事构成了品牌官方网站全部工作的底层逻辑。
+            如今，环球影像已发展为拥有 12600 余条外语影片条目、860 位入驻创作者的专业影像平台，覆盖院线佳作、独立影像、
+            纪录片、短片与影展单元，成为不少影迷心中的用户首选入口。
+          </p>
+          <h3>外国片电影，究竟意味着什么</h3>
+          <p>
+            很多人把「外国片电影」简单理解为「不是本国出品的电影」。但在我们的内容体系里，它更像一把钥匙。
+            一部外语电影同时携带语言、地理、历史、家庭结构、社会情绪与审美传统六重信息，它们彼此纠缠。
+            同样一个父子告别的镜头，在北欧的雪原上和在东南亚的雨天里，情绪走向完全不同。
+            因此，作为深耕外语电影垂直领域的品牌，我们坚持为每部作品配备「背景卡」：
+            导演的成长轨迹、拍摄地的现实处境、语言里的方言层次、乃至当年的票房与争议。
+            这些内容不替代观影，但能让观影从「看完」变成「看懂」。
+          </p>
+          <h3>高清、正版与原创：平台的三条底线</h3>
+          <p>
+            我们理解，一个视频品牌官网若想被长期信赖，必须对内容质量负责。
+            第一是高清。我们与多个海外版权方及修复机构合作，逐帧校对胶片划痕与音轨错位，
+            让经典作品在今天的屏幕上依旧清晰。
+            第二是正版。平台所有上线内容均有明确授权链路，这也是我们能安心进行企业合作与品牌联动的基础。
+            第三是原创。站内近四成内容是创作者与编辑部产出的原创解读、拉片、访谈与影像随笔，
+            它们构成社区真正的血肉。我们不追求数量堆叠，更看重每个条目能否被认真对待。
+          </p>
+          <h3>社区：让电影成为一种共同经验</h3>
+          <p>
+            影像本身是孤独的，但理解可以是集体的。环球影像社区每周有超过 3000 条影评长文、1.2 万条短评与
+            数百场线上讨论。我们把这种活力看作品牌最珍贵的资产。
+            为了让讨论保持品质，我们设置了「引路人」机制：由资深创作者担任板块主理人，
+            负责梳理片单、组织观影、回应新人问题。
+            每年冬天的「环球冬日影展」与夏天的「城市与远方」短片征集，是社区最热闹的两个节点，
+            创作者在这里报名、上传作品、参与投票与挑战，最终构成一份属于所有影迷的年度片单。
+          </p>
+          <h3>企业责任与下一步</h3>
+          <p>
+            作为一个持续运营的品牌，我们也在思考影像之外的责任。
+            乡村学校的影像放映计划已推进到第 11 个省份，累计为 240 余所学校提供设备与片单；
+            面向青年创作者的「第一部长片」扶持基金，已资助 17 个项目完成拍摄。
+            未来三年，官方网站将把精力放在三件事上：扩充非英语地区的内容储备、完善创作者的分账体系、
+            以及把社区讨论沉淀成可检索的知识库。我们希望这个平台不只是一处观看入口，
+            而是一个能陪伴观众成长、记录真实、传递温暖与力量的内容生态。
+          </p>
+          <h3>关于「品质」的一点说明</h3>
+          <p>
+            「品质」在我们的语境里不是宣传词，而是一套可被检验的标准：画质不低于 1080P 且经过修复标注、
+            字幕经过至少两人交叉校对、条目信息完整度不低于 85%、每条原创解读须署名并接受社区评议。
+            这套标准让平台在同行中保持了相对稳定的口碑，也让企业客户在合作时更有依据。
+            我们相信，只有把专业做在看不见的地方，观众才有机会在屏幕上遇见真正的惊喜。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="fp-section alt fp-anchor" id="fp-focus">
+    <div class="fp-container">
+      <div class="fp-section-head">
+        <span class="fp-eyebrow">FEATURED</span>
+        <h2>焦点内容：本周品牌编辑部力荐</h2>
+        <p>由环球影像编辑部与签约创作者共同选出的六部外语电影内容，涵盖深度解读、幕后记录与地域影单。</p>
+      </div>
+      <div class="fp-feature-grid">
+        <article class="fp-feature-main">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='fm1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232b1c14'/%3E%3Cstop offset='.5' stop-color='%236b3a1e'/%3E%3Cstop offset='1' stop-color='%23e6a93c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23fm1)'/%3E%3Ccircle cx='200' cy='130' r='72' fill='%23f6d489' opacity='.65'/%3E%3Cpath d='M0 300 Q160 230 320 285 T640 260 T800 300 L800 450 L0 450 Z' fill='%23231410' opacity='.85'/%3E%3Cg stroke='%23f6d489' stroke-width='3' opacity='.55' fill='none'%3E%3Crect x='420' y='90' width='280' height='170' rx='8'/%3E%3Cpath d='M470 260 L470 150 L560 205 L470 260'/%3E%3C/g%3E%3Crect x='60' y='330' width='260' height='14' rx='7' fill='%23ffffff' opacity='.55'/%3E%3Crect x='60' y='358' width='180' height='10' rx='5' fill='%23ffffff' opacity='.3'/%3E%3C/svg%3E" alt="焦点主推《南岸旧片》外语电影深度解读封面：暖橙色调的老放映机与胶片光斑" width="800" height="450">
+          <div class="fp-feature-main-body">
+            <span class="fp-badge">品牌精选 · 深度解读</span>
+            <h3>《南岸旧片》：一部关于修复与遗忘的意大利电影</h3>
+            <p>当一座电影资料馆决定修复一部无人问津的老片，修复过程本身成为一部关于记忆的纪录片。编辑部用 42 分钟拉片，拆解镜头里的时间痕迹。</p>
+            <div class="fp-tags">
+              <span class="fp-tag">外语电影</span><span class="fp-tag">深度解读</span><span class="fp-tag">修复影像</span>
+            </div>
+          </div>
+        </article>
+        <div class="fp-feature-side">
+          <article class="fp-mini-card">
+            <div class="fp-mini-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%231b2a4a'/%3E%3Ccircle cx='240' cy='60' r='40' fill='%234d6699' opacity='.7'/%3E%3Cpath d='M0 150 L90 100 L170 140 L250 90 L320 130 L320 200 L0 200 Z' fill='%230f1729'/%3E%3Crect x='20' y='24' width='90' height='10' rx='5' fill='%23f6d489' opacity='.8'/%3E%3C/svg%3E" alt="《雪线以北》北欧电影摄影地纪行封面：蓝灰冷调雪山与湖泊" width="320" height="200">
+              <em>18:24</em>
+            </div>
+            <div>
+              <h4>《雪线以北》：跟着镜头走一遍北欧的冬天</h4>
+              <p>摄影地纪行 · 图文+影像</p>
+            </div>
+          </article>
+          <article class="fp-mini-card">
+            <div class="fp-mini-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%23f0e3cf'/%3E%3Ccircle cx='80' cy='80' r='46' fill='%23c98a1e' opacity='.65'/%3E%3Cpath d='M0 160 L80 120 L160 155 L240 110 L320 150 L320 200 L0 200 Z' fill='%23a8642a' opacity='.6'/%3E%3Crect x='180' y='40' width='110' height='70' rx='6' fill='%23fff' opacity='.55'/%3E%3C/svg%3E" alt="《地中海来信》法语电影对白解析封面：米黄暖调海边台阶与来信" width="320" height="200">
+              <em>12:58</em>
+            </div>
+            <div>
+              <h4>《地中海来信》对白逐句拆解：礼貌背后的锋利</h4>
+              <p>语言学 × 电影 · 创作者@林以澜</p>
+            </div>
+          </article>
+          <article class="fp-mini-card">
+            <div class="fp-mini-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%23202a3d'/%3E%3Crect x='30' y='110' width='60' height='70' fill='%234d6699'/%3E%3Crect x='105' y='80' width='60' height='100' fill='%236a86bd'/%3E%3Crect x='180' y='50' width='60' height='130' fill='%234d6699'/%3E%3Crect x='255' y='95' width='45' height='85' fill='%23334266'/%3E%3Ccircle cx='150' cy='40' r='20' fill='%23f6d489' opacity='.7'/%3E%3C/svg%3E" alt="《东京午夜列车》日语电影城市夜景解析封面：钴蓝夜色与楼宇灯窗" width="320" height="200">
+              <em>26:10</em>
+            </div>
+            <div>
+              <h4>《东京午夜列车》里的城市节奏：夜戏为何总在末班车</h4>
+              <p>城市探索 · 官方发布</p>
+            </div>
+          </article>
+          <article class="fp-mini-card">
+            <div class="fp-mini-thumb">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200'%3E%3Crect width='320' height='200' fill='%23131f36'/%3E%3Cpath d='M0 130 L100 80 L200 120 L320 70 L320 200 L0 200 Z' fill='%23243459'/%3E%3Cg fill='%23e6a93c' opacity='.85'%3E%3Ccircle cx='60' cy='50' r='4'/%3E%3Ccircle cx='140' cy='30' r='3'/%3E%3Ccircle cx='230' cy='55' r='4'/%3E%3Ccircle cx='290' cy='35' r='3'/%3E%3C/g%3E%3C/svg%3E" alt="《星光放映室》影展幕后记录封面：深蓝夜空与点状星光" width="320" height="200">
+              <em>09:46</em>
+            </div>
+            <div>
+              <h4>《星光放映室》幕后：一场露天影展的 72 小时</h4>
+              <p>创作幕后 · 企划跟踪</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 影像流 -->
+  <section class="fp-section fp-anchor" id="fp-videos">
+    <div class="fp-container">
+      <div class="fp-section-head">
+        <span class="fp-eyebrow">PICTURE STREAM</span>
+        <h2>影像流：正在被讨论的外国片电影内容</h2>
+        <p>六个不同方向的视频与图文卡片，来自编辑部和社区创作者。支持点赞与收藏，数据实时反馈。</p>
+      </div>
+      <div class="fp-video-grid" id="fpVideoGrid">
+
+        <article class="fp-video-card">
+          <div class="fp-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='v1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23a8642a'/%3E%3Cstop offset='1' stop-color='%23f0d6a8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23v1)'/%3E%3Ccircle cx='120' cy='80' r='54' fill='%23ffffff' opacity='.35'/%3E%3Cpath d='M0 200 L100 150 L200 195 L320 140 L480 200 L480 270 L0 270 Z' fill='%238a5220' opacity='.65'/%3E%3Crect x='300' y='60' width='130' height='90' rx='8' fill='%23fff' opacity='.4'/%3E%3C/svg%3E" alt="《面包与清晨》法国生活电影拉片封面：清晨暖光与面包店橱窗" width="480" height="270">
+            <span class="fp-vbadge">教程干货</span>
+            <div class="fp-vtri"><i>▶</i></div>
+          </div>
+          <div class="fp-video-body">
+            <h3>《面包与清晨》：法国生活电影里的三段时间</h3>
+            <p>从清晨五点的烤箱到午后的空街，一部电影如何用光线完成时间的叙述。</p>
+            <div class="fp-tags"><span class="fp-tag">外语电影</span><span class="fp-tag">拉片</span><span class="fp-tag">法国</span></div>
+            <div class="fp-video-meta">
+              <span class="fp-author-mini"><span class="fp-avatar" style="background:#a8642a">沈</span>沈知远</span>
+              <div class="fp-actions">
+                <button class="fp-act" data-fp-like aria-label="点赞"><span class="fp-heart">♡</span><span class="fp-num">1284</span></button>
+                <button class="fp-act" data-fp-fav aria-label="收藏"><span class="fp-star">☆</span><span>收藏</span></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="fp-video-card">
+          <div class="fp-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23172543'/%3E%3Ccircle cx='380' cy='70' r='60' fill='%234d6699' opacity='.65'/%3E%3Cpath d='M0 210 L110 160 L220 200 L340 145 L480 195 L480 270 L0 270 Z' fill='%230c1526'/%3E%3Cg stroke='%23f6d489' stroke-width='2' opacity='.7' fill='none'%3E%3Cpath d='M60 60 h70 M60 80 h50'/%3E%3C/g%3E%3Crect x='250' y='40' width='16' height='120' fill='%23ffffff' opacity='.2'/%3E%3C/svg%3E" alt="《北纬六十度》极地纪录片测评封面：极夜深蓝与冰原轮廓" width="480" height="270">
+            <span class="fp-vbadge">深度测评</span>
+            <div class="fp-vtri"><i>▶</i></div>
+          </div>
+          <div class="fp-video-body">
+            <h3>《北纬六十度》极地纪录片：修复版到底好在哪里</h3>
+            <p>对比原版与修复版共 14 组画面，逐项说明色彩、噪点与音轨的差异。</p>
+            <div class="fp-tags"><span class="fp-tag">纪录片</span><span class="fp-tag">修复</span><span class="fp-tag">高清</span></div>
+            <div class="fp-video-meta">
+              <span class="fp-author-mini"><span class="fp-avatar" style="background:#37507f">周</span>周叙白</span>
+              <div class="fp-actions">
+                <button class="fp-act" data-fp-like aria-label="点赞"><span class="fp-heart">♡</span><span class="fp-num">963</span></button>
+                <button class="fp-act" data-fp-fav aria-label="收藏"><span class="fp-star">☆</span><span>收藏</span></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="fp-video-card">
+          <div class="fp-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23f3ece1'/%3E%3Ccircle cx='110' cy='100' r='58' fill='%23c98a1e' opacity='.55'/%3E%3Cpath d='M0 190 L90 150 L180 185 L280 145 L380 180 L480 150 L480 270 L0 270 Z' fill='%23945f2c' opacity='.55'/%3E%3Crect x='280' y='50' width='150' height='100' rx='10' fill='%23ffffff' opacity='.6'/%3E%3Cpath d='M320 100 l30 -28 l30 28' stroke='%23a8642a' stroke-width='4' fill='none'/%3E%3C/svg%3E" alt="《海边旧书店》意大利电影人物访谈封面：暖米色调与店门画框" width="480" height="270">
+            <span class="fp-vbadge">人物访谈</span>
+            <div class="fp-vtri"><i>▶</i></div>
+          </div>
+          <div class="fp-video-body">
+            <h3>《海边旧书店》导演访谈：我拍的其实是慢下来的勇气</h3>
+            <p>四十分钟长谈，关于小镇、旧书、沉默，以及为什么主角最后没有离开。</p>
+            <div class="fp-tags"><span class="fp-tag">意大利</span><span class="fp-tag">访谈</span><span class="fp-tag">原创</span></div>
+            <div class="fp-video-meta">
+              <span class="fp-author-mini"><span class="fp-avatar" style="background:#c98a1e">苏</span>苏歇</span>
+              <div class="fp-actions">
+                <button class="fp-act" data-fp-like aria-label="点赞"><span class="fp-heart">♡</span><span class="fp-num">2150</span></button>
+                <button class="fp-act" data-fp-fav aria-label="收藏"><span class="fp-star">☆</span><span>收藏</span></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="fp-video-card">
+          <div class="fp-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%23212b3f'/%3E%3Crect x='40' y='150' width='80' height='120' fill='%23394360'/%3E%3Crect x='140' y='100' width='80' height='170' fill='%234d6699'/%3E%3Crect x='240' y='60' width='80' height='210' fill='%236a86bd'/%3E%3Crect x='340' y='120' width='80' height='150' fill='%23394360'/%3E%3Ccircle cx='390' cy='50' r='26' fill='%23f6d489' opacity='.75'/%3E%3C/svg%3E" alt="《洛杉矶六点》美国电影城市探索封面：暮色楼群与放射状天光" width="480" height="270">
+            <span class="fp-vbadge">城市探索</span>
+            <div class="fp-vtri"><i>▶</i></div>
+          </div>
+          <div class="fp-video-body">
+            <h3>《洛杉矶六点》：下班时刻如何成为整部电影的心脏</h3>
+            <p>沿三条道路重走取景地，看城市空间怎样决定人物的情绪密度。</p>
+            <div class="fp-tags"><span class="fp-tag">美国</span><span class="fp-tag">城市</span><span class="fp-tag">摄影地</span></div>
+            <div class="fp-video-meta">
+              <span class="fp-author-mini"><span class="fp-avatar" style="background:#4d6699">何</span>何屿</span>
+              <div class="fp-actions">
+                <button class="fp-act" data-fp-like aria-label="点赞"><span class="fp-heart">♡</span><span class="fp-num">741</span></button>
+                <button class="fp-act" data-fp-fav aria-label="收藏"><span class="fp-star">☆</span><span>收藏</span></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="fp-video-card">
+          <div class="fp-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%231f3b34'/%3E%3Ccircle cx='380' cy='80' r='52' fill='%2387b79b' opacity='.55'/%3E%3Cpath d='M0 200 Q120 140 240 190 T480 170 L480 270 L0 270 Z' fill='%23112a24'/%3E%3Cg stroke='%23d8ead9' stroke-width='2' opacity='.55' fill='none'%3E%3Cpath d='M60 90 q30 -30 60 0 M60 110 q40 -30 80 0'/%3E%3C/g%3E%3C/svg%3E" alt="《潮汐之间》东南亚电影声音设计赏析封面：自然绿与海岸潮线" width="480" height="270">
+            <span class="fp-vbadge">实用技巧</span>
+            <div class="fp-vtri"><i>▶</i></div>
+          </div>
+          <div class="fp-video-body">
+            <h3>《潮汐之间》的声音设计：为什么海浪声可以替代台词</h3>
+            <p>从环境声、拟音到混音层级，拆解东南亚电影独特的听觉语言。</p>
+            <div class="fp-tags"><span class="fp-tag">声音设计</span><span class="fp-tag">东南亚</span><span class="fp-tag">技巧</span></div>
+            <div class="fp-video-meta">
+              <span class="fp-author-mini"><span class="fp-avatar" style="background:#2f6b57">程</span>程岸</span>
+              <div class="fp-actions">
+                <button class="fp-act" data-fp-like aria-label="点赞"><span class="fp-heart">♡</span><span class="fp-num">517</span></button>
+                <button class="fp-act" data-fp-fav aria-label="收藏"><span class="fp-star">☆</span><span>收藏</span></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="fp-video-card">
+          <div class="fp-video-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Crect width='480' height='270' fill='%232a2233'/%3E%3Ccircle cx='150' cy='130' r='70' fill='%23d3a6d1' opacity='.4'/%3E%3Ccircle cx='320' cy='110' r='48' fill='%23f6d489' opacity='.5'/%3E%3Cpath d='M0 215 L120 175 L240 205 L360 165 L480 200 L480 270 L0 270 Z' fill='%231a1522'/%3E%3Cpath d='M390 40 l16 34 34 16 -34 16 -16 34 -16 -34 -34 -16 34 -16 z' fill='%23f6d489' opacity='.8'/%3E%3C/svg%3E" alt="《午夜歌厅》音乐现场电影视听赏析封面：紫粉暖调与舞台灯点" width="480" height="270">
+            <span class="fp-vbadge">艺术美学</span>
+            <div class="fp-vtri"><i>▶</i></div>
+          </div>
+          <div class="fp-video-body">
+            <h3>《午夜歌厅》的舞台调度：一首歌里换了四次情绪</h3>
+            <p>从灯光、机位与剪辑节点入手，看音乐现场如何被拍成小型寓言。</p>
+            <div class="fp-tags"><span class="fp-tag">音乐现场</span><span class="fp-tag">美学</span><span class="fp-tag">外语电影</span></div>
+            <div class="fp-video-meta">
+              <span class="fp-author-mini"><span class="fp-avatar" style="background:#8a5f9e">江</span>江止</span>
+              <div class="fp-actions">
+                <button class="fp-act" data-fp-like aria-label="点赞"><span class="fp-heart">♡</span><span class="fp-num">1622</span></button>
+                <button class="fp-act" data-fp-fav aria-label="收藏"><span class="fp-star">☆</span><span>收藏</span></button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题企划 -->
+  <section class="fp-section alt fp-anchor" id="fp-topics">
+    <div class="fp-container">
+      <div class="fp-section-head">
+        <span class="fp-eyebrow">SPECIAL PROGRAM</span>
+        <h2>专题企划：按主题进入外语电影的世界</h2>
+        <p>四个正在进行的官方企划，覆盖修复、地域影单、新人短片与语言文化。每期均由编辑部与社区共创。</p>
+      </div>
+      <div class="fp-topic-grid">
+        <article class="fp-topic">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 400'%3E%3Crect width='320' height='400' fill='%23162434'/%3E%3Ccircle cx='160' cy='140' r='78' fill='%23f6d489' opacity='.28'/%3E%3Ccircle cx='160' cy='140' r='44' fill='%23f6d489' opacity='.55'/%3E%3Cpath d='M0 300 L110 250 L210 292 L320 248 L320 400 L0 400 Z' fill='%230d1c2b'/%3E%3Crect x='40' y='40' width='100' height='10' rx='5' fill='%23ffffff' opacity='.4'/%3E%3C/svg%3E" alt="专题《冬日影展·修复单元》封面：深夜蓝底与金色光圈" width="320" height="400">
+          <div class="fp-topic-body">
+            <h3>冬日影展 · 修复单元</h3>
+            <p>十二部跨年代外语电影修复版，配合编辑部背景卡与创作者拉片。</p>
+            <span class="fp-topic-status">更新中 · 12 部</span>
+          </div>
+        </article>
+        <article class="fp-topic">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 400'%3E%3Crect width='320' height='400' fill='%23342a1d'/%3E%3Cpath d='M0 260 L80 200 L160 250 L240 190 L320 240 L320 400 L0 400 Z' fill='%23231a10'/%3E%3Ccircle cx='240' cy='110' r='56' fill='%23e6a93c' opacity='.6'/%3E%3Cg stroke='%23f0d6a8' stroke-width='3' fill='none' opacity='.6'%3E%3Cpath d='M50 90 h80 M50 115 h60'/%3E%3C/g%3E%3C/svg%3E" alt="专题《一座城市一部电影》封面：琥珀暖调与坡道街景" width="320" height="400">
+          <div class="fp-topic-body">
+            <h3>一座城市，一部电影</h3>
+            <p>从里斯本到布宜诺斯艾利斯，用影像重走八座城市的街道与日常。</p>
+            <span class="fp-topic-status">更新中 · 8 座城市</span>
+          </div>
+        </article>
+        <article class="fp-topic">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 400'%3E%3Crect width='320' height='400' fill='%2322402f'/%3E%3Cpath d='M0 280 Q80 220 160 270 T320 250 L320 400 L0 400 Z' fill='%23132c21'/%3E%3Ccircle cx='90' cy='110' r='46' fill='%2387b79b' opacity='.6'/%3E%3Crect x='180' y='80' width='100' height='130' rx='8' fill='%23d8ead9' opacity='.28'/%3E%3C/svg%3E" alt="专题《新声·青年短片计划》封面：自然绿与海边坡地" width="320" height="400">
+          <div class="fp-topic-body">
+            <h3>新声 · 青年短片计划</h3>
+            <p>面向新锐创作者的投稿与展映企划，提供拍摄支持与展映通道。</p>
+            <span class="fp-topic-status soon">报名中 · 征集至 12 月</span>
+          </div>
+        </article>
+        <article class="fp-topic">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 400'%3E%3Crect width='320' height='400' fill='%232b2236'/%3E%3Ccircle cx='200' cy='120' r='64' fill='%23d3a6d1' opacity='.45'/%3E%3Cpath d='M0 290 L100 240 L200 285 L320 235 L320 400 L0 400 Z' fill='%231a1522'/%3E%3Cg stroke='%23f6d489' stroke-width='2' opacity='.6' fill='none'%3E%3Cpath d='M40 70 q24 -24 48 0 q24 24 48 0'/%3E%3C/g%3E%3C/svg%3E" alt="专题《语言与银幕》封面：柔和粉紫与声波线条" width="320" height="400">
+          <div class="fp-topic-body">
+            <h3>语言与银幕</h3>
+            <p>方言、口音与字幕翻译如何改变一部外语电影的重量。</p>
+            <span class="fp-topic-status">更新中 · 6 期</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者 -->
+  <section class="fp-section fp-anchor" id="fp-creators">
+    <div class="fp-container">
+      <div class="fp-section-head">
+        <span class="fp-eyebrow">CREATORS</span>
+        <h2>创作者矩阵：让专业的人讲专业的事</h2>
+        <p>四位长期入驻的创作者，分别来自影评、修复、声音与城市影像领域。点击卡片可查看简介。</p>
+      </div>
+      <div class="fp-creators">
+        <article class="fp-creator" data-fp-creator data-name="沈知远" data-role="法语电影拉片 / 编辑部主笔" data-bio="十二年影评写作经验，专注法国与比利时电影，擅长以光线与生活节奏切入作品。在平台累计发布 186 篇原创长文。">
+          <div class="fp-avatar-lg" style="background:linear-gradient(140deg,#a8642a,#e6a93c)">沈</div>
+          <h3>沈知远</h3>
+          <div class="fp-crole">法语电影拉片</div>
+          <p>用光线密度读一部电影，也读一个国家的日常。</p>
+          <div class="fp-creator-nums">
+            <div><b>186</b>作品</div>
+            <div><b>4.2万</b>粉丝</div>
+          </div>
+        </article>
+        <article class="fp-creator" data-fp-creator data-name="周叙白" data-role="胶片修复 / 视觉技术" data-bio="前影像修复实验室工程师，参与过 70 余部老片修复，主讲修复对比系列，以严谨著称。">
+          <div class="fp-avatar-lg" style="background:linear-gradient(140deg,#37507f,#4d6699)">周</div>
+          <h3>周叙白</h3>
+          <div class="fp-crole">胶片修复师</div>
+          <p>把画面里被时间带走的部分，一点点找回来。</p>
+          <div class="fp-creator-nums">
+            <div><b>94</b>作品</div>
+            <div><b>3.6万</b>粉丝</div>
+          </div>
+        </article>
+        <article class="fp-creator" data-fp-creator data-name="程岸" data-role="声音设计 / 纪录片" data-bio="纪录片声音指导，关注环境声与拟音在叙事中的作用，作品多次入围国际短片节声音奖项。">
+          <div class="fp-avatar-lg" style="background:linear-gradient(140deg,#2f6b57,#87b79b)">程</div>
+          <h3>程岸</h3>
+          <div class="fp-crole">声音设计</div>
+          <p>有时候一段海浪声，比十句台词更接近真相。</p>
+          <div class="fp-creator-nums">
+            <div><b>71</b>作品</div>
+            <div><b>2.1万</b>粉丝</div>
+          </div>
+        </article>
+        <article class="fp-creator" data-fp-creator data-name="江止" data-role="城市影像 / 策展人" data-bio="独立策展人，长期拍摄城市与夜生活题材，主持「一座城市一部电影」专题的城市单元。">
+          <div class="fp-avatar-lg" style="background:linear-gradient(140deg,#8a5f9e,#d3a6d1)">江</div>
+          <h3>江止</h3>
+          <div class="fp-crole">城市影像策展</div>
+          <p>城市不是背景板，它一直在参与表演。</p>
+          <div class="fp-creator-nums">
+            <div><b>128</b>作品</div>
+            <div><b>5.4万</b>粉丝</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 故事 / 随笔 / 影像墙 -->
+  <section class="fp-section alt fp-anchor" id="fp-stories">
+    <div class="fp-container">
+      <div class="fp-section-head">
+        <span class="fp-eyebrow">STORIES &amp; WALL</span>
+        <h2>故事随笔与影像墙：观众留下的真实回声</h2>
+        <p>三篇来自社区的短文，与九张不同尺寸的影像作品。它们不是宣传语，而是长时间观影之后留下的痕迹。</p>
+      </div>
+
+      <div class="fp-story-grid" style="margin-bottom:34px">
+        <article class="fp-story">
+          <h3>第一次不带字幕看完整部外语电影</h3>
+          <p>那是一个停电的周五，备份盘里只有一部没有字幕的意大利电影。我硬着头皮看完，结果记住了所有表情。</p>
+          <div class="fp-story-by">—— 社区用户 · 三七，入驻第 412 天</div>
+        </article>
+        <article class="fp-story">
+          <h3>我把修复对比看成了纪录片</h3>
+          <p>原本只想看十分钟的修复对比，最后把整期看完。划痕消失的那一刻，我忽然理解了「保存」两个字的重量。</p>
+          <div class="fp-story-by">—— 社区用户 · 木南，内容评议员</div>
+        </article>
+        <article class="fp-story">
+          <h3>因为一部电影去了另一座城市</h3>
+          <p>看完那部片子的第二年，我买了去里斯本的机票。走到电影里那条坡道时，才发现镜头其实拍低了三十度。</p>
+          <div class="fp-story-by">—— 社区用户 · 林舟，城市单元投稿者</div>
+        </article>
+      </div>
+
+      <div class="fp-wall">
+        <figure class="w-tall">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%231b2a4a'/%3E%3Ccircle cx='150' cy='120' r='58' fill='%23f6d489' opacity='.5'/%3E%3Cpath d='M0 300 L80 250 L160 295 L240 245 L300 285 L300 400 L0 400 Z' fill='%230f1729'/%3E%3C/svg%3E" alt="影像墙作品《夜航》封面：深蓝夜空与金色圆弧光" width="300" height="400">
+          <figcaption>《夜航》· 江止</figcaption>
+        </figure>
+        <figure class="w-sq">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23e9dfd0'/%3E%3Ccircle cx='90' cy='90' r='48' fill='%23c98a1e' opacity='.6'/%3E%3Crect x='150' y='60' width='110' height='140' rx='8' fill='%23ffffff' opacity='.7'/%3E%3Cpath d='M0 240 L80 200 L160 240 L300 195 L300 300 L0 300 Z' fill='%23a8642a' opacity='.5'/%3E%3C/svg%3E" alt="影像墙作品《午后书页》封面：米色纸张与窗框光影" width="300" height="300">
+          <figcaption>《午后书页》· 木南</figcaption>
+        </figure>
+        <figure class="w-sq">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23223a30'/%3E%3Cpath d='M0 220 Q80 170 160 210 T300 190 L300 300 L0 300 Z' fill='%23132c21'/%3E%3Ccircle cx='220' cy='80' r='36' fill='%2387b79b' opacity='.7'/%3E%3C/svg%3E" alt="影像墙作品《潮线》封面：墨绿海岸与白色浪线" width="300" height="300">
+          <figcaption>《潮线》· 程岸</figcaption>
+        </figure>
+        <figure class="w-sq">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23344a70'/%3E%3Crect x='40' y='120' width='60' height='180' fill='%23536b95'/%3E%3Crect x='120' y='70' width='60' height='230' fill='%236a86bd'/%3E%3Crect x='200' y='140' width='60' height='160' fill='%233a4d72'/%3E%3Ccircle cx='250' cy='60' r='22' fill='%23f6d489' opacity='.7'/%3E%3C/svg%3E" alt="影像墙作品《楼间黄昏》封面：蓝灰楼群与落日点" width="300" height="300">
+          <figcaption>《楼间黄昏》· 何屿</figcaption>
+        </figure>
+        <figure class="w-wide">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 260'%3E%3Crect width='600' height='260' fill='%232b2236'/%3E%3Ccircle cx='150' cy='120' r='70' fill='%23d3a6d1' opacity='.4'/%3E%3Ccircle cx='430' cy='90' r='46' fill='%23f6d489' opacity='.5'/%3E%3Cpath d='M0 200 L120 165 L260 195 L400 160 L600 195 L600 260 L0 260 Z' fill='%231a1522'/%3E%3C/svg%3E" alt="影像墙作品《舞台之后》宽幅封面：粉紫暗调与双光源" width="600" height="260">
+          <figcaption>《舞台之后》· 苏歇</figcaption>
+        </figure>
+        <figure class="w-tall">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23131f36'/%3E%3Cg fill='%23e6a93c' opacity='.8'%3E%3Ccircle cx='70' cy='90' r='3'/%3E%3Ccircle cx='160' cy='60' r='4'/%3E%3Ccircle cx='240' cy='110' r='3'/%3E%3Ccircle cx='110' cy='160' r='4'/%3E%3Ccircle cx='210' cy='190' r='3'/%3E%3C/g%3E%3Cpath d='M0 310 L90 265 L180 305 L300 255 L300 400 L0 400 Z' fill='%230c1526'/%3E%3C/svg%3E" alt="影像墙作品《星河放映》竖幅封面：深夜蓝与散落星点" width="300" height="400">
+          <figcaption>《星河放映》· 沈知远</figcaption>
+        </figure>
+        <figure class="w-sq">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23f2ece2'/%3E%3Cpath d='M40 220 L120 140 L200 210 L260 170 L300 200 L300 300 L0 300 L0 250 Z' fill='%23a8642a' opacity='.45'/%3E%3Ccircle cx='210' cy='90' r='40' fill='%23e6a93c' opacity='.55'/%3E%3C/svg%3E" alt="影像墙作品《旧城坡道》封面：暖米色调与坡道轮廓" width="300" height="300">
+          <figcaption>《旧城坡道》· 林以澜</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 榜单 + 评论 -->
+  <section class="fp-section fp-anchor" id="fp-community">
+    <div class="fp-container">
+      <div class="fp-section-head">
+        <span class="fp-eyebrow">COMMUNITY</span>
+        <h2>社区口碑：榜单与观众评价</h2>
+        <p>三份每周更新的榜单，以及来自不同维度、不同语气的真实评价。评价内容由社区用户自愿发布并接受评议。</p>
+      </div>
+
+      <div class="fp-rank-grid" style="margin-bottom:38px">
+        <div class="fp-rank">
+          <h3><i>热</i>本周热度榜</h3>
+          <ol>
+            <li><span>《南岸旧片》深度解读</span><em>2.4万</em></li>
+            <li><span>《北纬六十度》修复对比</span><em>1.9万</em></li>
+            <li><span>《海边旧书店》导演访谈</span><em>1.6万</em></li>
+            <li><span>《午夜歌厅》舞台调度</span><em>1.1万</em></li>
+            <li><span>《潮汐之间》声音设计</span><em>8860</em></li>
+          </ol>
+        </div>
+        <div class="fp-rank">
+          <h3><i>新</i>新人创作者榜</h3>
+          <ol>
+            <li><span>@怀舟 · 葡萄牙电影</span><em>+1240</em></li>
+            <li><span>@北见 · 纪录片剪辑</span><em>+986</em></li>
+            <li><span>@苏木 · 字幕翻译</span><em>+870</em></li>
+            <li><span>@晏禾 · 城市声音采集</span><em>+712</em></li>
+            <li><span>@林以澜 · 语言与银幕</span><em>+655</em></li>
+          </ol>
+        </div>
+        <div class="fp-rank">
+          <h3><i>口</i>口碑榜</h3>
+          <ol>
+            <li><span>《雪线以北》摄影地纪行</span><em>4.9</em></li>
+            <li><span>冬日影展 · 修复单元</span><em>4.8</em></li>
+            <li><span>《地中海来信》对白拆解</span><em>4.8</em></li>
+            <li><span>一座城市一部电影</span><em>4.7</em></li>
+            <li><span>《面包与清晨》三段时间</span><em>4.7</em></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="fp-comments">
+        <article class="fp-comment">
+          <div class="fp-comment-head">
+            <span class="fp-avatar" style="background:#a8642a">陈</span>
+            <div><strong>陈默</strong><small>入驻 3 年 · 影评人</small></div>
+          </div>
+          <p>修复对比那期我反复看了三遍，终于明白所谓「高清」不是更亮，而是更接近原片呼吸的样子。这个平台在技术细节上确实专业。</p>
+          <div class="fp-stars">★★★★★</div>
+        </article>
+        <article class="fp-comment">
+          <div class="fp-comment-head">
+            <span class="fp-avatar" style="background:#37507f">徐</span>
+            <div><strong>徐一禾</strong><small>入驻 1 年 · 学生</small></div>
+          </div>
+          <p>作为外语专业的学生，最喜欢「语言与银幕」这个企划。字幕翻译的分析很细，甚至讲了语气词的取舍，对写论文帮助很大。</p>
+          <div class="fp-stars">★★★★★</div>
+        </article>
+        <article class="fp-comment">
+          <div class="fp-comment-head">
+            <span class="fp-avatar" style="background:#2f6b57">罗</span>
+            <div><strong>罗青</strong><small>入驻 2 年 · 独立创作者</small></div>
+          </div>
+          <p>投稿流程比想象中顺畅，审核意见写得具体，不是敷衍的模板回复。作为一个社区，这种认真很难得。</p>
+          <div class="fp-stars">★★★★☆</div>
+        </article>
+        <article class="fp-comment">
+          <div class="fp-comment-head">
+            <span class="fp-avatar" style="background:#8a5f9e">高</span>
+            <div><strong>高桅</strong><small>入驻 5 年 · 老用户</small></div>
+          </div>
+          <p>用了五年，最明显的变化是条目信息越来越完整。早期很多外语片只有一句简介，现在连拍摄地都能查到，能感到平台在持续运营。</p>
+          <div class="fp-stars">★★★★★</div>
+        </article>
+        <article class="fp-comment">
+          <div class="fp-comment-head">
+            <span class="fp-avatar" style="background:#c98a1e">沈</span>
+            <div><strong>沈栖</strong><small>入驻 8 个月 · 新手</small></div>
+          </div>
+          <p>一开始只是想找外语电影的背景资料，结果被社区的影评吸引住了。大家都在认真讨论作品本身，而不是吵架。</p>
+          <div class="fp-stars">★★★★☆</div>
+        </article>
+        <article class="fp-comment">
+          <div class="fp-comment-head">
+            <span class="fp-avatar" style="background:#4d6699">孟</span>
+            <div><strong>孟行</strong><small>入驻 2 年 · 摄影爱好者</small></div>
+          </div>
+          <p>城市探索系列拍得很舒服，没有过度的煽情。看完《洛杉矶六点》我特意去找了那条街的实景地图。</p>
+          <div class="fp-stars">★★★★★</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 / 合作 -->
+  <section class="fp-section alt fp-anchor" id="fp-news">
+    <div class="fp-container">
+      <div class="fp-section-head">
+        <span class="fp-eyebrow">UPDATES &amp; PARTNERS</span>
+        <h2>企业动态与合作伙伴</h2>
+        <p>品牌官方发布的最新进展，以及与我们一起推动外语电影内容生态的合作伙伴。</p>
+      </div>
+
+      <div class="fp-news" style="margin-bottom:36px">
+        <div class="fp-news-item">
+          <div class="fp-news-date">2026 / 11 / 17</div>
+          <div>
+            <h3>冬日影展 · 修复单元正式上线，首批 12 部外语电影完成画质校对</h3>
+            <p>本次修复涵盖 1950 至 1990 年代作品，全部条目补充拍摄地与语言背景卡。</p>
+          </div>
+          <span class="fp-news-type">官方发布</span>
+        </div>
+        <div class="fp-news-item">
+          <div class="fp-news-date">2026 / 11 / 09</div>
+          <div>
+            <h3>「新声 · 青年短片计划」第三期报名开启，提供拍摄支持与展映通道</h3>
+            <p>面向青年创作者征集 3 至 25 分钟短片，入围作品将进入平台年度展映单元。</p>
+          </div>
+          <span class="fp-news-type">比赛报名</span>
+        </div>
+        <div class="fp-news-item">
+          <div class="fp-news-date">2026 / 10 / 28</div>
+          <div>
+            <h3>品牌官网高清播放器 v5.2 更新，优化移动端字幕与音轨切换</h3>
+            <p>新增双语字幕叠显与记忆播放位置，修复部分机型音画不同步问题。</p>
+          </div>
+          <span class="fp-news-type">产品动态</span>
+        </div>
+        <div class="fp-news-item">
+          <div class="fp-news-date">2026 / 10 / 15</div>
+          <div>
+            <h3>乡村学校影像放映计划推进至第 11 个省份，累计覆盖 240 余所学校</h3>
+            <p>本年度新增设备捐赠与片单支持，同步开放创作者志愿报名。</p>
+          </div>
+          <span class="fp-news-type">社会责任</span>
+        </div>
+      </div>
+
+      <div class="fp-partners">
+        <div class="fp-partner">光影资料馆</div>
+        <div class="fp-partner">南岸电影节</div>
+        <div class="fp-partner">声场实验室</div>
+        <div class="fp-partner">城市影像联盟</div>
+        <div class="fp-partner">巷口书店计划</div>
+        <div class="fp-partner">青年影像基金</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ + 联系 -->
+  <section class="fp-section fp-anchor" id="fp-faq">
+    <div class="fp-container">
+      <div class="fp-section-head">
+        <span class="fp-eyebrow">HELP &amp; CONTACT</span>
+        <h2>帮助中心与联系我们</h2>
+        <p>关于内容、投稿、企业与版权合作的常见问题。若仍有疑问，可通过下方入口联系官方团队。</p>
+      </div>
+
+      <div class="fp-faq" style="margin-bottom:44px">
+        <details open>
+          <summary>平台上的外国片电影内容都是正版授权的吗？</summary>
+          <p>是的。官方网站上线内容均具备明确授权链路，修复与译制内容会标注合作机构。若发现授权问题，可通过反馈入口提交，我们会在三个工作日内核查并回应。</p>
+        </details>
+        <details>
+          <summary>如何成为入驻创作者？需要什么条件？</summary>
+          <p>在页脚或联系区点击「创作者投稿」即可打开申请表单。我们更关注内容方向与持续产出能力，而非粉丝数量。提交后通常在五个工作日内收到编辑部的具体反馈意见。</p>
+        </details>
+        <details>
+          <summary>修复版与原始版本有什么区别？</summary>
+          <p>修复主要针对胶片划痕、色彩漂移、音轨错位与噪点。我们会同时保留原始版本的观看选项，并在条目页提供对比说明，方便观众自行判断。</p>
+        </details>
+        <details>
+          <summary>可以下载素材用于学习或教学吗？</summary>
+          <p>平台提供部分正版素材的学习授权申请，需说明用途与使用范围。商业用途请走企业合作通道，我们会有专人对接授权与署名规范。</p>
+        </details>
+        <details>
+          <summary>「新声 · 青年短片计划」如何报名？</summary>
+          <p>报名需提交作品链接、创作阐述与团队信息。入围作品将获得展映机会与创作支持，具体时间节点以官方发布为准。</p>
+        </details>
+        <details>
+          <summary>企业合作可以做什么？</summary>
+          <p>包括品牌联合企划、专题共创、线下影展合作与内容授权。我们更倾向于与价值观接近的伙伴长期合作，共同维护外语电影内容生态的品质。</p>
+        </details>
+        <details>
+          <summary>社区评论有管理规则吗？</summary>
+          <p>有。我们鼓励具体、有依据的讨论，反对人身攻击与剧透式标题。引路人会定期整理优质长评，并对违规内容进行处理。</p>
+        </details>
+      </div>
+
+      <div class="fp-contact" id="fp-contact">
+        <div>
+          <h2>与环球影像一起，把好电影讲清楚</h2>
+          <p>无论你是创作者、影迷、机构还是品牌伙伴，都欢迎与我们联系。官方网站持续运营中，期待你的声音加入这个内容生态。</p>
+          <div class="fp-contact-list">
+            <div><b>合作邮箱</b>partner@globalpictures.example</div>
+            <div><b>投稿咨询</b>creator@globalpictures.example</div>
+            <div><b>媒体联络</b>press@globalpictures.example</div>
+            <div><b>办公地址</b>城市影像中心 7 层 · 编辑部与放映室</div>
+            <div><b>服务时间</b>周一至周五 10:00 - 19:00</div>
+          </div>
+        </div>
+        <div class="fp-contact-side">
+          <button class="fp-btn fp-btn-primary" data-fp-open="submit">创作者投稿</button>
+          <button class="fp-btn fp-btn-ghost" style="border-color:rgba(195,208,234,.45);color:#dbe5fa" data-fp-open="report">问题反馈</button>
+          <button class="fp-btn fp-btn-ghost" style="border-color:rgba(195,208,234,.45);color:#dbe5fa" data-fp-share>分享本页</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="fp-footer">
+  <div class="fp-container">
+    <div class="fp-footer-grid">
+      <div>
+        <div class="fp-footer-brand">
+          <span class="fp-brand-mark" aria-hidden="true" style="width:36px;height:36px;font-size:16px">▶</span>
+          <strong>环球影像</strong>
+        </div>
+        <p>环球影像官方网站 · 专注外国片电影内容的品牌视频平台。以原创、正版、高清为底线，深耕外语电影垂直领域，持续为创作者与观众搭建值得信赖的内容生态。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#fp-focus">焦点内容</a></li>
+          <li><a href="#fp-videos">影像流</a></li>
+          <li><a href="#fp-topics">专题企划</a></li>
+          <li><a href="#fp-stories">影像墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#fp-brand">品牌故事</a></li>
+          <li><a href="#fp-creators">创作者矩阵</a></li>
+          <li><a href="#fp-news">企业动态</a></li>
+          <li><a href="#fp-faq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与</h4>
+        <ul>
+          <li><a href="#fp-contact" data-fp-open="submit">创作者投稿</a></li>
+          <li><a href="#fp-contact">企业合作</a></li>
+          <li><a href="#fp-contact" data-fp-open="report">问题反馈</a></li>
+          <li><a href="#fp-top">回到首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fp-footer-bottom">
+      <span>© 2026 环球影像官方网站 · 版权所有 · 持续运营中</span>
+      <span>内容备案：环球影像内容字第 2013-2026 号 · 品牌主体：环球影像文化传播有限公司</span>
+    </div>
+  </div>
+</footer>
+
+<div class="fp-toast" id="fpToast" role="status" aria-live="polite"></div>
+
+<div class="fp-modal-mask" id="fpModalMask">
+  <div class="fp-modal" role="dialog" aria-modal="true" aria-labelledby="fpModalTitle">
+    <button class="fp-modal-close" id="fpModalClose" aria-label="关闭">×</button>
+    <h3 id="fpModalTitle">创作者投稿</h3>
+    <p id="fpModalDesc">填写简要信息，编辑部将在五个工作日内回复具体意见。</p>
+    <form id="fpModalForm">
+      <label for="fpFieldName">称呼</label>
+      <input id="fpFieldName" type="text" placeholder="你的昵称或姓名" required>
+      <label for="fpFieldContact">联系方式</label>
+      <input id="fpFieldContact" type="text" placeholder="邮箱或常用社交账号" required>
+      <label for="fpFieldMsg">作品方向 / 反馈内容</label>
+      <textarea id="fpFieldMsg" placeholder="简单描述你关注的外语电影方向、作品情况或遇到的问题"></textarea>
+      <button class="fp-btn fp-btn-primary" type="submit">提交</button>
+    </form>
+  </div>
+</div>
+
+<button class="fp-backtop" id="fpBackTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+  var toastEl = document.getElementById('fpToast');
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('show'); }, 2200);
+  }
+
+  /* 移动端导航 */
+  var nav = document.getElementById('fpNav');
+  var navToggle = document.getElementById('fpNavToggle');
+  navToggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    navToggle.setAttribute('aria-label', open ? '收起导航' : '展开导航');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A' && window.innerWidth <= 768){
+      nav.classList.remove('open');
+      navToggle.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* 搜索反馈 */
+  var searchInput = document.getElementById('fpSearchInput');
+  var searchBtn = document.getElementById('fpSearchBtn');
+  var searchHint = document.getElementById('fpSearchHint');
+  var searchData = [
+    '《南岸旧片》深度解读',
+    '《北纬六十度》修复对比',
+    '《海边旧书店》导演访谈',
+    '冬日影展修复单元',
+    '一座城市一部电影',
+    '语言与银幕',
+    '创作者投稿指南',
+    '《午夜歌厅》舞台调度'
+  ];
+  function doSearch(){
+    var q = (searchInput.value || '').trim();
+    if(!q){
+      searchHint.textContent = '请输入关键词，例如“修复”“法语”“城市”';
+      return;
+    }
+    var hits = searchData.filter(function(s){ return s.indexOf(q) !== -1; });
+    if(hits.length){
+      searchHint.textContent = '找到 ' + hits.length + ' 条相关内容：' + hits.slice(0,3).join('、');
+      toast('已为你匹配 ' + hits.length + ' 条内容');
+    }else{
+      searchHint.textContent = '暂未匹配到“' + q + '”，试试“修复”“城市”“访谈”等方向';
+      toast('暂无匹配结果，换个关键词试试');
+    }
+  }
+  searchBtn.addEventListener('click', doSearch);
+  searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); doSearch(); }
+  });
+  searchInput.addEventListener('input', function(){
+    if(!searchInput.value.trim()) searchHint.textContent = '';
+  });
+
+  /* 点赞 / 收藏 */
+  document.querySelectorAll('[data-fp-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var numEl = btn.querySelector('.fp-num');
+      var heart = btn.querySelector('.fp-heart');
+      var n = parseInt(numEl.textContent, 10) || 0;
+      var on = btn.classList.toggle('on');
+      numEl.textContent = on ? (n + 1) : Math.max(0, n - 1);
+      heart.textContent = on ? '♥' : '♡';
+      toast(on ? '感谢你的喜欢，已记入热度榜' : '已取消点赞');
+    });
+  });
+  document.querySelectorAll('[data-fp-fav]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var star = btn.querySelector('.fp-star');
+      var label = btn.querySelector('span:last-child');
+      var on = btn.classList.toggle('on');
+      star.textContent = on ? '★' : '☆';
+      label.textContent = on ? '已收藏' : '收藏';
+      toast(on ? '已加入个人收藏夹' : '已从收藏夹移除');
+    });
+  });
+
+  /* 创作者弹窗 */
+  var mask = document.getElementById('fpModalMask');
+  var modalTitle = document.getElementById('fpModalTitle');
+  var modalDesc = document.getElementById('fpModalDesc');
+  var modalForm = document.getElementById('fpModalForm');
+  var lastFocus = null;
+  function openModal(title, desc, needForm){
+    lastFocus = document.activeElement;
+    modalTitle.textContent = title;
+    modalDesc.textContent = desc;
+    modalForm.style.display = needForm ? 'block' : 'none';
+    mask.classList.add('show');
+    document.getElementById('fpModalClose').focus();
+  }
+  function closeModal(){
+    mask.classList.remove('show');
+    if(lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  document.getElementById('fpModalClose').addEventListener('click', closeModal);
+  mask.addEventListener('click', function(e){ if(e.target === mask) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  document.querySelectorAll('[data-fp-creator]').forEach(function(card){
+    card.addEventListener('click', function(){
+      var name = card.getAttribute('data-name');
+      var role = card.getAttribute('data-role');
+      var bio = card.getAttribute('data-bio');
+      openModal(name + ' · ' + role, bio, false);
+    });
+  });
+
+  document.querySelectorAll('[data-fp-open]').forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      var type = el.getAttribute('data-fp-open');
+      if(type === 'submit'){
+        openModal('创作者投稿', '填写简要信息，编辑部将在五个工作日内回复具体意见。', true);
+      }else{
+        openModal('问题反馈', '描述你遇到的问题或想反馈的内容，我们会尽快核查并回复。', true);
+      }
+    });
+  });
+
+  modalForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    closeModal();
+    modalForm.reset();
+    toast('提交成功，编辑部会尽快与你联系');
+  });
+
+  /* 分享 */
+  function sharePage(){
+    var link = window.location.href.split('#')[0];
+    var done = function(){ toast('链接已复制，可分享给朋友'); };
+    var fail = function(){ toast('分享入口已就绪，请手动复制地址栏链接'); };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(link).then(done).catch(fail);
+    }else{
+      try{
+        var ta = document.createElement('textarea');
+        ta.value = link;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        done();
+      }catch(err){ fail(); }
+    }
+  }
+  document.querySelectorAll('[data-fp-share]').forEach(function(btn){
+    btn.addEventListener('click', function(e){ e.preventDefault(); sharePage(); });
+  });
+
+  /* 回到顶部 */
+  var backTop = document.getElementById('fpBackTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520) backTop.classList.add('show');
+    else backTop.classList.remove('show');
+  }, {passive:true});
+  backTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* 数字滚动 */
+  var statNums = document.querySelectorAll('.fp-hero-stat strong');
+  var statStarted = false;
+  function animateStats(){
+    if(statStarted) return;
+    statStarted = true;
+    statNums.forEach(function(el){
+      var raw = el.textContent;
+      var m = raw.match(/[\d.]+/);
+      if(!m) return;
+      var target = parseFloat(m[0]);
+      var isFloat = m[0].indexOf('.') !== -1;
+      var suffix = raw.replace(m[0], '');
+      var start = null, dur = 1100;
+      function step(ts){
+        if(!start) start = ts;
+        var p = Math.min((ts - start) / dur, 1);
+        var val = target * (1 - Math.pow(1 - p, 3));
+        el.textContent = (isFloat ? val.toFixed(1) : Math.round(val)) + suffix;
+        if(p < 1) requestAnimationFrame(step);
+        else el.textContent = raw;
+      }
+      requestAnimationFrame(step);
+    });
+  }
+  var hero = document.querySelector('.fp-hero');
+  if('IntersectionObserver' in window && hero){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting) animateStats(); });
+    }, {threshold:.3});
+    io.observe(hero);
+  }else{
+    animateStats();
+  }
+})();
+</script>
+</body>
+          </html>
